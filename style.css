@@ -6,6 +6,8 @@
 
 body {
   align-items: center;
+  background-color: steelblue;
+  color: #fff;
   display: flex;
   flex-direction: column;
   font-family: "Roboto", sans-serif;
@@ -13,4 +15,32 @@ body {
   justify-content: center;
   margin: 0;
   overflow: hidden;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  padding: 20px 40px;
+}
+
+.container a {
+  color: rgb(121, 212, 122);
+  text-decoration: none;
+}
+
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-control {
+  margin: 20px 0 40px;
+  position: relative;
+  width: 300px;
+}
+
+.form-control input {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
 }
