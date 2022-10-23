@@ -43,4 +43,8 @@ body {
   background-color: transparent;
   border: 0;
   border-bottom: 2px #fff solid;
+  display: block;
+  font-size: 18px;
+  padding: 15px 0;
+  width: 100%;
 }
