@@ -17,6 +17,16 @@ body {
   overflow: hidden;
 }
 
+.btn {
+  background: lightblue;
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+}
+
 .container {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
@@ -43,8 +53,14 @@ body {
   background-color: transparent;
   border: 0;
   border-bottom: 2px #fff solid;
+  color: #fff;
   display: block;
   font-size: 18px;
   padding: 15px 0;
   width: 100%;
+}
+
+.form-control input:focus,
+.form-control input:valid {
+  outline: 0;
 }
