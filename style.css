@@ -27,6 +27,14 @@ body {
   width: 100%;
 }
 
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
 .container {
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
@@ -63,4 +71,8 @@ body {
 .form-control input:focus,
 .form-control input:valid {
   outline: 0;
+}
+
+.text {
+  margin-top: 30px;
 }
